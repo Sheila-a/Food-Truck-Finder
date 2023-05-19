@@ -1,40 +1,13 @@
-.SearchComponent {
-  width: 50%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.SearchComponent_input {
-  padding: 10px 20px;
-  width: 77%;
-  background-color: #fff;
-}
-
-.SearchComponent_input_btn {
-  width: 20%;
-  background: #8bc34a;
-  color: #fff;
-}
-
-.SearchComponent_input_btn,
-.SearchComponent_input {
-  border-radius: 10px;
-  border: 1px solid #8bc34a;
-  margin-bottom: 40px;
-}
-
-.SearchComponent_input_btn:hover {
-  transition: 0.4s ease;
-  cursor: pointer;
+h2 {
   color: #8bc34a;
-  background: #fff;
+  margin-bottom: 50px;
 }
 
-.SearchComponent_input:focus {
-  border: 2px solid #8bc34a;
-  outline: none;
+h3 {
+  color: #1d3501;
+  margin-bottom: 10px;
+  border-bottom: 4px solid #1d3501;
 }
-
 .cardWrapper {
   display: flex;
   flex-wrap: wrap;
@@ -60,4 +33,13 @@
   width: calc(30% - 50px);
   background-color: #8bc34a93;
   border-radius: 5px;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #1d3501;
+  font-weight: 700;
 }
