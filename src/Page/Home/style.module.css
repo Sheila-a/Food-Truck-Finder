@@ -1,0 +1,9 @@
+.Home {
+  /* display: flex; */
+  padding: 20px 50px 50px 50px;
+}
+
+.Home h1 {
+  color: #8bc34a;
+  cursor: pointer;
+}
